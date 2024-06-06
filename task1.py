@@ -5,8 +5,8 @@ from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 
 # Step 1: Load the dataset
-train_data = pd.read_csv("D:\\Projects\\Krutva_Patel\\PRODIGY_ML_01\\train.csv")
-test_data = pd.read_csv("D:\\Projects\\Krutva_Patel\\PRODIGY_ML_01\\test.csv")
+train_data = pd.read_csv("train.csv")
+test_data = pd.read_csv("test.csv")
 
 # Step 2: Preprocess the data
 # Select relevant features
